@@ -1,1 +1,4 @@
-test
+ alertDialog.getWindow().setWindowAnimations(R.style.sweet_dialog_animation);
+ alertDialog.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
+
+alertDialog.show();
